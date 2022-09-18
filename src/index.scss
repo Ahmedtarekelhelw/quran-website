@@ -1,0 +1,43 @@
+@import "./scss/custom-bts.scss";
+@import "./scss/variables";
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  transition: all 0 3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button {
+  border: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.dark {
+  background-color: $dark-primary;
+  color: #fff;
+}
+
+.text {
+  color: #fff;
+}

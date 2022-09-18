@@ -1,0 +1,15 @@
+@import "../../scss/variables";
+.dark {
+  .dashboard-header__right {
+    border: 1px solid rgba(22, 155, 136, 0.2);
+  }
+}
+
+.bg-dark {
+  background-color: $bg-dark;
+  box-shadow: 0 0 2px 2px #111727;
+  border-color: rgba(22, 155, 136, 0.2) !important;
+  &:hover {
+    background-color: $bg-dark-hover !important;
+  }
+}

@@ -1,0 +1,39 @@
+.login {
+  height: 100vh;
+  .right {
+    flex: 1;
+    background-image: url("../../assets/quran.jpg");
+    background-size: cover;
+    background-position: center center;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  .left {
+    flex: 1.4;
+    background-image: url("../../assets/back-pattern.png");
+
+    //bootstrap classes
+    form {
+      width: 450px;
+      @media (max-width: 480px) {
+        width: 100%;
+      }
+      .form-control {
+        &:focus {
+          border-color: #e6edef;
+          box-shadow: none;
+        }
+      }
+      .btn-secondary {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.login-input {
+  font-weight: 500;
+  font-size: 14px;
+}

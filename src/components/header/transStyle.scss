@@ -1,0 +1,38 @@
+.ltr {
+  header {
+    .dashboard-header__left {
+      margin-right: 30px;
+      .logout-btn {
+        .dashboard-header__icon {
+          transform: rotateY(0deg);
+          margin-right: 5px;
+        }
+      }
+      .lang,
+      .msg {
+        ul {
+          left: 50%;
+          transform: translatex(-50%);
+        }
+      }
+      .lang {
+        ul {
+          li {
+            > div {
+              margin-left: 0;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .dashboard-header__right {
+      border-radius: 0 30px 0 0;
+      img {
+        margin-right: 10px;
+        margin-left: 0px !important;
+      }
+    }
+  }
+}
+
